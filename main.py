@@ -3,6 +3,10 @@ class OutOfRangeError(Exception):
     pass
 
 
+def multiply_3_numbers(num1, num2, num3):
+    return num1 * num2 * num3
+
+
 def main():
 
     def name_the_number():
@@ -21,10 +25,11 @@ def main():
     except OutOfRangeError:
         print("That's not one of the allowed values!")
 
-    def multiply_3_numbers(num1, num2, num3):
-        return num1 * num2 * num3
 
 
 if __name__ == '__main__':
     main()
+
+
+
 
